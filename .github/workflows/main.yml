@@ -6,7 +6,7 @@ jobs:
     name: A job to say hello
     steps:
 
-    - uses: ./ # Uses an action in the root directory
+    - uses: ../ # Uses an action in the root directory
     - name: Hello world action step
       id: hello
       uses: actions/hello-world-docker-action@v1
